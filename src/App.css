@@ -1,0 +1,21 @@
+.inner-container {
+  outline: 5px solid orange;
+  position: relative;
+  width: 600px;
+  text-align: center;
+  background-color: #b3b3b3;
+}
+
+@media screen and (max-width: 650px) {
+  .inner-container {
+    transform: scale(0.7);
+  }
+
+}
+
+.inner-container .pad-bank {
+  width: 332px;
+  height: 272px;
+  display: inline-block;
+  margin: 20px;
+}

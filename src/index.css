@@ -1,0 +1,12 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  user-select: none;
+  background-color: #8d8d8d;
+  font-family: Ruso, One;
+}
